@@ -88,6 +88,5 @@ Output:
 # b2 = total - s[1]
 # print(b1, b2)
 
-a, b = map(int, input().split())
-total = a + b - 1
-print(total - a, total - b)
+s = input()
+print(*range(1, 6), sep=s)
