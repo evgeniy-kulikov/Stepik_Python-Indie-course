@@ -106,6 +106,6 @@ Output: ___
 
 """
 
-Input:  
+Input: 
 Output: 
 """
