@@ -109,13 +109,13 @@ Output: ___
 
 """
 нужно Нужно
-Input: 
-Output: 
+Input:  *
+Output: *
 """
 
 
 """
-Input:  0
-Output: 0
+Input:  *
+Output: *
+        *
 """
-
