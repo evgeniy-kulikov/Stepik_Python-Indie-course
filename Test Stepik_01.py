@@ -116,7 +116,6 @@ Output:
 
 """
 Input:  0
-        0
-        0
 Output: 0
 """
+
