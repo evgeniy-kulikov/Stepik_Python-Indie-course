@@ -115,7 +115,7 @@ Output: *
 
 
 """
-Input:  *
-Output: *
-        *
+Input:  
+Output: 
+
 """
