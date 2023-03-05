@@ -121,10 +121,16 @@ Output:
 
 """
 
+# Вариант
 
 """
-Input:  a1
 
-Output: YES
+Input:  *
+        *
+Output: *
 """
+
+
+
+
 
