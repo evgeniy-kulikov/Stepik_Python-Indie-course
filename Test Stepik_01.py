@@ -1,6 +1,7 @@
 # s = input()
 # num = int(input())
 # a, b = input(), input()
+# a, b = int(input()), int(input())
 # num = float(input())
 # title, author, page, coin = input(), input(), int(input()), float(input())
 # c = input().split()
@@ -22,7 +23,7 @@
 
 """
 На вход программе подаются натуральное число n, а затем n строк, каждая на отдельной строке.
-вывести список состоящий из указанных строк.
+Вывести список состоящий из указанных строк.
 """
 
 
@@ -46,8 +47,7 @@
 # [['abc'], ['def']]
 
 # n = int(input())
-# s = [(input()) for _ in range(n)]
-# ['abc', 'def']
+# s = [(input()) for _ in range(n)]  # ['abc', 'def']
 
 # еще короче
 # s = [input() for _ in range(int(input()))]
@@ -118,7 +118,12 @@ Output: *
 """
 Input:  
 Output: 
+Input:  5 1 2 1 2      3 3 1 1 1         4 5 3 1 5
+Output: First          Second            Friendship
 
+Input:  Лондон      Тверь
+        Норильск    Роттердам
+Output: Good        Good
 """
 
 # Вариант
@@ -126,11 +131,8 @@ Output:
 """
 
 Input:  *
-        *
 Output: *
 """
 
-
-
-
+# Вариант
 
