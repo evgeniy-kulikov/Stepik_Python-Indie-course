@@ -1,56 +1,61 @@
-# s = input()
-# num = int(input())
-# a, b = input(), input()
-# a, b = int(input()), int(input())
-# num = float(input())
-# title, author, page, coin = input(), input(), int(input()), float(input())
-# c = input().split()
-# a, b, c = map(int, input().split())
-# a, b, c = int(input()), int(input()), int(input())
-# a, b = map(str, input().split())
-# s = list(map(int, input().split()))
-# s = list(map(float, input().split()))
-# lst = list(map(str, input().split()))
+
+"""
+st = input()
+st1, st2 = input(), input()
+num = int(input())
+a, b = int(input()), int(input())
+num = float(input())
+st, n, num = input(), int(input()), float(input())
+
+st = input().split()
+x, y = tuple(map(int, input().split()))
+a, b, c = map(int, input().split())
+a, b, c = int(input()), int(input()), int(input())
+st1, st2 = map(str, input().split())
+s = list(map(int, input().split()))
+s = list(map(float, input().split()))
+lst = list(map(str, input().split()))
 
 # множественный ввод
-# h1, m1, s1, h2, m2, s2 = (int(input()) for _ in range(6))
+h1, m1, s1, h2, m2, s2 = (int(input()) for _ in range(6))
 
-# n = int(input())
-# s = [int(input()) for el in range(n)]
+n = int(input())
+s = [int(input()) for el in range(n)]
 
 # На вход программе поступают два целых числа в одной строке.
-# a, b = map(int, input().split())
+a, b = map(int, input().split())
+"""
+
 
 """
 На вход программе подаются натуральное число n, а затем n строк, каждая на отдельной строке.
 Вывести список состоящий из указанных строк.
-"""
 
-# n = int(input())
-# lst = []
-# for el in range(n):
-#     lst += [input()]
+n = int(input())
+lst = []
+for el in range(n):
+    lst += [input()]
 # [['abc'], ['def']]
 
-# n = int(input())
-# lst = []
-# for el in range(n):
-#     lst.append(input())
+n = int(input())
+lst = []
+for el in range(n):
+   lst.append(input())
 
-# n = int(input())
-# s = [[el for el in (input())] for _ in range(n)]
+n = int(input())
+s = [[el for el in (input())] for _ in range(n)]
 # [['a', 'b', 'c'], ['d', 'e', 'f']]
 
-# n = int(input())
-# s = [[(input())] for _ in range(n)]
+n = int(input())
+s = [[(input())] for _ in range(n)]
 # [['abc'], ['def']]
 
-# n = int(input())
-# s = [(input()) for _ in range(n)]  # ['abc', 'def']
+n = int(input())
+s = [(input()) for _ in range(n)]  # ['abc', 'def']
 
 # еще короче
-# s = [input() for _ in range(int(input()))]
-
+s = [input() for _ in range(int(input()))]
+"""
 
 # s = list(map(int, input().split()))
 # n = int(input())
@@ -110,8 +115,6 @@ Output: ___
 #  *  *  *   Задачи   *  *  *
 
 # Вариант
-# Вариант
-# Вариант
 
 """
 
@@ -119,14 +122,10 @@ Input:  *
 Output: *
 """
 
+#  https://stepik.org/lesson/296614/step/16?unit=278348
 """
 
-Input:  *
-Output: *
+Input:  8
+Output: 1152
 """
 
-"""
-
-Input:  
-Output: 
-"""
