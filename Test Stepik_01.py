@@ -122,11 +122,11 @@ Input:  *
 Output: *
 """
 
-# Отложенные решения на отпуск (11)
-# https://stepik
+# Отложенные решения на отпуск (17)
+# https:
 """
 
-Input:  4
-Output: 3
+Input:  +
+Output: +
 """
 
