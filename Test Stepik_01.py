@@ -122,10 +122,11 @@ Input:  *
 Output: *
 """
 
-#  https://stepik.org/lesson/296614/step/16?unit=278348
+# Отложенные решения на отпуск (11)
+# https://stepik
 """
 
-Input:  8
-Output: 1152
+Input:  4
+Output: 3
 """
 

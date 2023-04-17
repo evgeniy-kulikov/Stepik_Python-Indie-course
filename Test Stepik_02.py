@@ -44,6 +44,3 @@
 # s = [(input()) for _ in range(n)]
 # ['abc', 'def']
 
-
-
-
