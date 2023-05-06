@@ -39,8 +39,8 @@ Output: 0
         495
         500
 """
-for i in range(501):
-    print(i)
+for el in range(0, 501, 5):
+    print(el)
 
 # Отложенные решения на отпуск (34)
 # https://stepik.org/lesson/296960/step/4?unit=278688

@@ -120,18 +120,16 @@ Input:  *
 Output: *
 """
 
+
 #  *  *  *   Задачи   *  *  *
 
 
-# Отложенные решения на отпуск (45)
-# https://stepik
+# Отложенные решения на отпуск (57)
+# https://stepik.org/lesson
 """
 
-Input:  -
-Output: -
+Input:  *
+Output: *
 
 """
-
-
-
 
