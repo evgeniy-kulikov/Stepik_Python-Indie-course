@@ -296,3 +296,39 @@ for el in ls:
 ls = [el['first_name'] for el in data["my_friends"]['people']]
 ls.sort()
 print(*ls, sep='\n')
+
+
+""""""
+""""""
+# 07 (задача из раздела 7.11 Метод sort и функция sorted)
+"""
+https://stepik.org/lesson/372111/step/11?unit=359665
+Input:  3
+        444444 Женя
+        79129874521 Женя
+        79604845827 Оля
+        3
+        Оля
+        Олег
+        Женя
+Output: 79604845827
+        Неизвестный номер
+        444444 79129874521
+"""
+# tel = {'Женя': ['444444', '79129874521'], 'Оля': ['79604845827']}
+# query = ['Оля', 'Олег', 'Женя']
+
+tel = dict()
+for _ in range(int(input())):
+    phone, name = input().split()
+    tel.setdefault(name, []).append(phone)  # Так можно добавить значение к существующему и НОВОМУ ключу
+    # tel.get(name).append(name)  # Так можно добавить значение ТОЛЬКО к существующему ключу
+
+query = [input() for _ in range(int(input()))]
+
+for el in query:
+    if el in tel.keys():
+        print(*tel[el])
+    else:
+        print('Неизвестный номер')
+
