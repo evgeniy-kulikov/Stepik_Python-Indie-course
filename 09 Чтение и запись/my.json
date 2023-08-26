@@ -1,0 +1,21 @@
+{
+  "response": {
+    "count": 32363,
+    "items": [
+      {
+        "first_name": "Sonya",
+        "last_name": "Kargina",
+        "likes": 25,
+        "a": null,
+        "b": true
+      },
+      {
+        "first_name": "Slava",
+        "last_name": "Kholod",
+        "likes": 25,
+        "a": null,
+        "b": true
+      }
+    ]
+  }
+}
