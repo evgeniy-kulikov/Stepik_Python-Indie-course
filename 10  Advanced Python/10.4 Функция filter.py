@@ -165,4 +165,3 @@ for el in rez:
     print(el)
 
 print(*rez, sep='\n')  # вариант вывода на печать
-
