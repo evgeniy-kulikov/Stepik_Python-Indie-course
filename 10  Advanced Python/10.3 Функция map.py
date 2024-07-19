@@ -158,7 +158,8 @@ names = [('Gerald', 'Tucker'), ('Tricia', 'Johnson'), ('Robert', 'Mendez'),
          ('Danielle', 'Lane'), ('Mark', 'Anderson'), ('Charles', 'Shaw'),
          ('Derrick', 'Grant'), ('Tracy', 'Pierce'), ('Robert', 'Washington')]
 
-new_names = list(map(lambda el: str(el[0]) + ' ' + str(el[1]), names))
+# new_names = list(map(lambda el: str(el[0]) + ' ' + str(el[1]), names))
+new_names = list(map(lambda el: f'{str(el[0])} {str(el[1])}', names))
 print(new_names)
 
 

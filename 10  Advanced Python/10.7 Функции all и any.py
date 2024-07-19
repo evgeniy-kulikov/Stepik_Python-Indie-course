@@ -80,3 +80,22 @@ print(any(res))
 
 # Вариант
 print(any((word.endswith('ought') for word in input().lower().split())))
+
+
+# New
+"""
+Проверка на убывание
+На вход программе поступает список из целых чисел. 
+Вывести True, если элементы в списке отсортированы строго по убыванию. 
+В противном случае выведите False
+Input:  9 9 9 9 9 9
+Output: False
+"""
+data = list(map(int, input().split()))
+flag = True
+
+for idx, el in enumerate(data[:-1]):
+    if el <= data[idx + 1]:
+        flag = False
+        break
+print(flag)
